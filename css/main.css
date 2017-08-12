@@ -1,0 +1,653 @@
+body {
+    line-height: 1.4;
+    font-size: 32px;
+    font-family: HKgrotesk;
+    background-image: url('../img/texture.png');
+    position: relative;
+}
+
+
+header {
+    margin-top: 65px;
+    min-height: 125px
+}
+
+h1,
+h2,
+.btn-buy,
+.details,
+button {
+    font-family: 'League Spartan';
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.link-shop:hover {
+    background: #eec9a2;
+    border: 3px solid black;
+    color: black;
+    transition: background 0.7s, border 0.7s;
+}
+
+ .logo {
+    margin-left: -2%;
+    float: left;
+}
+
+.search-box {
+    margin-top: 0.5%;
+    position: relative;
+    display: block;
+    font-size: 0.9em;
+} 
+.btn-search{
+    background: none;
+    border: none;
+}
+
+.btn-search::before {
+    content: '';
+    background-image: url('../img/search.svg');
+    width: 21px;
+    height: 21px;
+    display: block;
+    position: absolute;
+    bottom: 21%;
+    left: 70% ;
+    float: right;
+}
+
+input[ type = search ] {
+    color: #92a1a9;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #92a1a9;
+    width: 30%;
+    padding-left: 7%;
+    float: right;
+    text-align: center
+}
+
+::-webkit-input-placeholder{
+    font-size: 0.9em;
+}
+
+
+.main-offer {
+    min-height: 690px;
+    background: url('../img/GINA.jpg') no-repeat;
+    background-size: contain;
+}
+.description {
+    margin-top: 6.8%;    
+}
+
+.main-offer .description p {
+    padding-top: 6%;
+    padding-left: 7%;
+    line-height: 1.3;
+    font-size: 0.9em;
+}
+
+.main-offer .description h1 {
+    font-size: 2.8em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 6%
+}
+
+.btn {
+    font-size: 0.7em;
+    color: #ffffff;
+    border: 3px solid #eec9a2;
+    margin-top: 39%;
+    margin-left: 7%;
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 3%; 
+    display: block;
+    width: 36.5%;
+}
+
+.link-shop:hover {
+    background: #eec9a2;
+    border: 3px solid black;
+    color: black;
+    transition: background 0.7s, border 0.7s;
+}
+
+.sentence {
+    margin-top: 3.5%;
+}
+
+.one-block {
+    background: #60b8a3;
+    height: 520px;
+    background-image: url('../img/fo.png');
+    background-repeat: no-repeat;
+    background-position: -43% 305%;
+}
+
+.two-block {
+    background: #7778c6;
+    height: 520px;
+    background-image: url('../img/cam.png');
+    background-repeat: no-repeat;
+    background-position: -70% 130%
+}
+
+.one-block h1,
+.two-block h1 {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 8%;
+    padding-left: 39%;
+}
+
+.two-block h1 {
+    padding-top: 9.5%;
+    padding-left: 2%
+}
+
+.sentence p {
+    font-size: 0.7em;
+}
+
+.one-block p {
+    padding-left: 13%;
+    padding-right: 2%;
+    text-align: right;
+    margin-bottom: 10% 
+}
+
+.two-block p {
+    padding-left: 2%;
+    padding-right: 6%;
+    text-align: left;
+    margin-bottom: 12%;
+}
+
+.one-block .btn-buy {
+    margin-left: 76%;
+    font-size: 0.6em;
+    color: #ffffff;
+    border: 3px solid #eec9a2;
+    letter-spacing: 2px;
+    padding: 1%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.two-block .btn-buy {
+    margin-left: 2%;
+    font-size: 0.6em;
+    color: #ffffff;
+    border: 3px solid #eec9a2;
+    letter-spacing: 2px;
+    padding: 1%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.option {
+    height: 440px;
+    margin-top: 3.5%;
+    margin-right: 4%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.option:nth-child(1) {
+    background-color: #e97864;
+    background-image: url('../img/mol.png');
+    background-repeat: no-repeat;
+    background-position: 100% -110%
+
+}
+
+.option:nth-child(2) {
+    background-color: #557581;
+    background-image: url('../img/sub.png');
+    background-repeat: no-repeat;
+    background-position: 50% -40%;
+}
+
+.option:nth-child(3) {
+    background-color: #82c9d8;
+    margin-right: 0%;
+    background-image: url('../img/braun.png');
+    background-repeat: no-repeat;
+    background-position: 50% 197%;
+}
+
+.option p {
+    font-size: 0.5em;
+    text-transform: none;
+    text-align: center;
+    padding-top: 16%;
+}
+
+.option h2 {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-bottom: 3%;
+}
+
+.details {
+     margin: 0 auto;
+     font-size: 0.57em;
+     letter-spacing: 1px;
+}
+
+.option:nth-child(2) p {
+    padding-top: 98%
+}
+
+.option:nth-child(2) .details {
+    padding: 3%;
+    width: 45%
+}
+
+.Feedback {
+    text-align: center;
+    margin-top: 13%;
+    min-height: 365px;
+}
+
+.Feedback b {
+    letter-spacing: 2px;
+    color: #92a1a9;
+}
+
+.Feedback p {
+    width: 80%;
+    font-size: 0.5em;
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: #92a1a9;
+}
+
+.Feedback input {
+    background: none;
+    border: 3px solid #92a1a9;
+}
+
+.Feedback ::-webkit-input-placeholder {
+    text-align: center;
+    font-size: 0.8em;
+    font-family: HKgrotesk;
+    color: #92a1a9;
+}
+
+.Feedback :-moz-placeholder {
+    text-align: center;
+    font-size: 0.8em;
+    font-family: HKgrotesk;
+    color: #92a1a9;
+}
+
+.Feedback ::-moz-placeholder {
+    text-align: center;
+    font-size: 0.8em;
+    font-family: HKgrotesk;
+    color: #92a1a9;
+}
+
+.Feedback :-ms-input-placeholder {
+    text-align: center;
+    font-size: 0.8em;
+    font-family: HKgrotesk;
+    color: #92a1a9;
+}
+
+.Feedback input {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+    margin-top: 4%;
+    text-align: center;
+    color: #92a1a9;
+}
+
+.Feedback button {
+    background-color: transparent;
+    border: 2px solid #82c9d8;
+    font-size: 0.6em;
+    letter-spacing: 1px;
+    padding: 1.5%;
+    padding-left: 10.3%;
+    padding-right: 10.2%;
+    margin-top: 1.5%;
+}
+
+footer {
+    text-align: center;
+    color: #92a1a9;
+}
+
+ul li {
+    display: inline-block;
+    font-size: 0.8em;
+    padding-right: 1%; 
+}
+
+ul li a {
+     color: #92a1a9;
+     display: inline-block;
+}
+
+ul li a::after {
+    content: '';
+	vertical-align: middle;
+	height: 7px;
+	width: 7px;
+	border-radius: 50%;
+	background-color: #92a1a9;
+    margin-left: 1em;
+    display: inline-block; 
+}
+
+
+footer strong {
+    font-size: 0.5em;
+    padding-bottom: 2%;
+}
+
+@media (min-width: 767px) and (max-width: 1280px)  {
+    .main-offer {
+        min-height: 580px;
+    }
+
+    .one-block h1 {
+        padding-left: 28%;
+    }
+
+    .btn {
+        margin-top: 11%;
+    }
+}
+
+
+
+@media (max-width: 991px){
+    .btn {
+    font-size: 0.6em;
+    margin-top: 9%;
+    margin-left: 7%;
+    padding-top: 2%;
+    padding-bottom: 3%; 
+    display: block;
+    width: 30.5%;
+    }
+
+    .main-offer .description p {
+    padding-top: 6%;
+    padding-left: 7%;
+    line-height: 1.2;
+    font-size: 0.8em;
+}
+
+.main-offer .description h1 {
+    font-size: 2.4em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 6%
+}
+
+input[ type = search ] {
+    width: 30%;
+}
+
+.btn-search::before {
+        bottom: 20%;
+        left: 69%;
+    }
+
+.description {
+    margin-top: 1.8%;    
+}
+.main-offer {
+    min-height: 455px
+}
+
+.one-block h1 {
+    padding-left: 5%;
+}
+
+.one-block p {
+    margin-bottom: 1%;
+}
+
+.option .btn {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.option:nth-child(2) .btn {
+    width: 70%
+}
+
+.option:nth-child(2){
+    background-position: 50% -20%;
+    background-size: 125%;
+}
+}
+
+@media (min-width: 120px) and (max-width: 767px) {
+    .logo-contain {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .logo { 
+        margin: 0 auto;
+        float: none;
+    }
+
+    .search-box {
+        text-align: center;
+    }
+
+    input[ type = search ] {
+        float: none;
+        width: 25%
+    }
+
+    .btn-search::before {
+        bottom: 20%;
+        left: 43%;
+    }
+
+    ::-webkit-input-placeholder{
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.btn {
+    font-size: 0.5em;
+    margin-top: 7%;
+    margin-left: 7%;
+    padding-top: 2%;
+    padding-bottom: 3%; 
+    display: block;
+    width: 25.5%;
+    }
+
+.main-offer {
+    background-size: cover;
+    min-height: 350px
+}
+
+.one-block {
+    text-align: center;
+    height: 350px;
+    background-position: -13% -115%;
+}
+
+.one-block h1 {
+    font-size: 1.3em;
+    padding-top: 2%;
+    padding-left: 0%;
+    text-align: center;
+}
+
+.sentence p {
+    font-size: 0.9em;
+    text-align: center;
+    padding: 0%
+}
+
+.one-block  {
+    text-align: center;
+    height: 350px;
+    background-position: -13% -115%;
+    margin-bottom: 4%
+}
+
+.one-block p {
+    margin-bottom: 12% 
+}
+
+.one-block .btn-buy {
+    text-align: center;
+    margin: 0;
+}
+
+.two-block {
+    text-align: center;
+    height: 350px;
+    background-position: -13% -115%;
+    margin-bottom: 4%
+}
+
+.two-block h1 {
+    font-size: 1.3em;
+    padding-top: 2%;
+    padding-left: 0%;
+    text-align: center;
+}
+
+.option {
+    height: 440px;
+    margin: 0%;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+
+.option:nth-child(1) {
+    background-color: #e97864;
+    background-image: url('../img/mol.png');
+    background-repeat: no-repeat;
+    background-position: 50% -110%
+
+}
+
+.option:nth-child(2) {
+    background-color: #557581;
+    background-image: url('../img/sub.png');
+    background-repeat: no-repeat;
+    background-position: -0% 50%;
+    background-size: 100%;
+}
+
+.option:nth-child(3) {
+    background-color: #82c9d8;
+    margin-right: 0%;
+    background-image: url('../img/braun.png');
+    background-repeat: no-repeat;
+    background-position: 50% 197%;
+}
+
+.option p {
+    font-size: 0.5em;
+    text-transform: none;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.option:nth-child(2) p {
+    padding-top: 10%
+}
+
+.option:nth-child(2) .details {
+    padding: 3%;
+    width: 45%
+}
+}
+
+@media (min-width: 5px) and (max-width: 546px) {
+    .btn {
+    font-size: 0.7em;
+    color: #ffffff;
+    border: 3px solid #eec9a2;
+    margin-top: 9%;
+    margin-left: 7%;
+    padding-top: 0%;
+    padding-bottom: 1%; 
+    display: block;
+    width: 130px;
+    margin: 0 auto;
+}
+
+ input[ type = search ] {
+    width: 37%;
+}
+
+.btn-search::before {
+        bottom: 20%;
+        left: 36%;
+}
+
+.main-offer {
+    background-size: cover;
+    min-height: 270px
+}
+
+.main-offer .description p {
+    padding-top: 1%;
+    line-height: 1.2;
+    font-size: 0.7em;
+}
+
+.main-offer .description h1 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.description {
+    margin-top: 1.8%;    
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sentence {
+    line-height: 1.1;
+    font-size: 0.9em
+}
+
+ input[ type = email ] {
+    width: 80%;
+}
+
+ul li {
+    font-size: 0.6em;
+}
+
+ul li a::after {
+    content: '';
+	vertical-align: middle;
+	height: 4px;
+	width: 4px;
+	border-radius: 50%;
+	background-color: #92a1a9;
+    margin-left: 0.3em;
+    display: inline-block; 
+}
+
+}
